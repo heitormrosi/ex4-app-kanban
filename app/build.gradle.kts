@@ -7,6 +7,10 @@ android {
     namespace = "dev.hmr.kanban"
     compileSdk = 36
 
+    viewBinding {
+        enable = true
+    }
+
     defaultConfig {
         applicationId = "dev.hmr.kanban"
         minSdk = 24

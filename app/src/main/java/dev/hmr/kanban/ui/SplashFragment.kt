@@ -12,7 +12,8 @@ class SplashFragment : Fragment() {
 
     /**
      *     Essa abordagem permite que o "biding" seja explicitamente
-     * instanciado e funcional. É um padrão de nomenclatura de variável.*/
+     * instanciado e funcional. É um padrão de nomenclatura de variável.
+     **/
     private var _binding: FragmentSplashBinding? = null
     private val binding get() = _binding!!
 
@@ -33,6 +34,5 @@ class SplashFragment : Fragment() {
         super.onDestroyView()
         this._binding = null
     }
-
 
 }
